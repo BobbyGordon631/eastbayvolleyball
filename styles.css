@@ -410,7 +410,7 @@ p {
 .image-overlay-section {
     background-image: url('IMG_5816.jpeg');
     background-size: cover;
-    background-position: left center;
+    background-position: 35% center;
     display: flex;
     justify-content: flex-end;
     min-height: 500px;
