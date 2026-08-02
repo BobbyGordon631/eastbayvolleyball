@@ -408,7 +408,7 @@ p {
 }
 
 .image-overlay-section {
-    background-image: url('https://images.unsplash.com/photo-1622271813137-b6f7902d5d85?auto=format&fit=crop&w=1600&q=80');
+    background-image: url('/eastbayvolleyball/IMG_1137.jpeg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -757,7 +757,7 @@ p {
     .split-section { flex-direction: column; }
     .split-content { text-align: center; }
     .layout-grid { grid-template-columns: 1fr; }
-    .overlay-content { width: 100%; padding: 40px 30px; text-align: center; }
+    .overlay-content { width: 100%; padding: 40px 30px; text-align: center; border-left: none; border-top: 4px solid var(--flame-yellow); }
 }
 
 @media (max-width: 768px) {
