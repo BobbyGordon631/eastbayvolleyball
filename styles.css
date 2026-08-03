@@ -407,31 +407,18 @@ p {
     align-items: center;
 }
 
-.image-overlay-section {
-    background-image: url('IMG_5816.jpeg');
-    background-size: cover;
-    background-position: 80% center;
-    display: flex;
-    justify-content: flex-end;
-    min-height: 500px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    border: 4px solid var(--dark-bg);
-}
-
-.overlay-content {
-    background: rgba(138, 11, 11, 0.95);
+.legacy-section {
+    background-color: var(--dark-red);
     color: #fff;
-    padding: 50px 45px;
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-left: 4px solid var(--flame-yellow);
+    padding: 60px 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    border: 4px solid var(--dark-bg);
+    border-top: 6px solid var(--flame-yellow);
 }
 
-.overlay-content h1, .overlay-content p {
+.legacy-section h1, .legacy-section p {
     color: #fff;
 }
 
@@ -757,8 +744,6 @@ p {
     .split-section { flex-direction: column; }
     .split-content { text-align: center; }
     .layout-grid { grid-template-columns: 1fr; }
-    .image-overlay-section { background-position: center center; }
-    .overlay-content { width: 100%; padding: 40px 30px; text-align: center; border-left: none; border-top: 4px solid var(--flame-yellow); }
 }
 
 @media (max-width: 768px) {
